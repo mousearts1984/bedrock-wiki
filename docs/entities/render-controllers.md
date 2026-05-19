@@ -131,7 +131,7 @@ Texture layering is achieved through the use of render controllers. If you aren'
                 }
             ],
             "textures": [
-                //You can add as many layers as you like. Layers are added top to bottom.
+                //Layers are added top to bottom. Adding more than three layers results in a crash.
                 "Texture.bottom_layer",
                 "Texture.top_layer"
             ]
